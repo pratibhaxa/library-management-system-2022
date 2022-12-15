@@ -1,0 +1,75 @@
+.form{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.ask{
+    font-weight: 600;
+    font-size: large;
+}
+
+.input{
+    height: 30px;
+    width: 350px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.input:hover{
+    border-width: 2px;
+    border-style: solid;
+}
+
+.input:focus{
+    border-style: double;
+    border-width: 3px;
+    border-color: black;
+}
+
+.addbook-submit-action1{
+    font-size: small;
+    color: crimson;
+    padding-left: 45%;
+}
+
+.book-detail-input-div{
+    background-color: rgb(206, 255, 250);
+    padding-left: 300px;
+    /* padding-right: 15px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* width: 100%; */
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.book-detail-input-table{
+    width: 100%;
+}
+
+.book-detail-input-header, .issuer-detail-input-header{
+    font-size: x-large;
+}
+
+/* BUTTON CSS */
+.addbook-button{
+    background-color: turquoise;
+    border-style: none;
+    border-color: transparent;
+    border-radius: 10px;
+    width: 180px;
+    height: 35px;
+    color: black;
+}
+
+.addbook-button-div{
+    padding-left: 43%;
+}
+
+.addbook-button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: thistle;
+    font-size: large;
+    transition-duration: 0.8s;
+}
